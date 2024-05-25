@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
-  Buttons, Clipbrd, StrUtils, MCUImage;
+  Buttons, Clipbrd, MCUImage;
 
 type
 
@@ -28,10 +28,13 @@ type
     lblWidthValue:    TLabel;
     lblHeightValue:   TLabel;
     memOutput:        TMemo;
+    pnlInfoHeight: TPanel;
+    pnlInfoWidth: TPanel;
+    pnlInfoCount: TPanel;
+    pnlInfoPath: TPanel;
     pnlImage:         TPanel;
     pnlOutput:        TPanel;
-    pnlInfo:          TPanel;
-    pnlSettings:      TPanel;
+    pnlControls:          TPanel;
     rgDataType:       TRadioGroup;
     rgRepresentation: TRadioGroup;
     rgLayout:         TRadioGroup;
